@@ -12,7 +12,7 @@ intercept = 1.087586
 w_month = model_weights.loc[0, "SaleMonth"]
 w_year = model_weights.loc[0, "SaleYear"]
 w_sqr_ftg = model_weights.loc[0, "TotalFinishedArea"]
-w_living_units = model_weights.loc[0, "LivingUnits"]
+w_living_units = model_weights.loc[0, "LivingUnits"] 
 
 # Describe stats
 month_d = x_describe["SaleMonth"]
